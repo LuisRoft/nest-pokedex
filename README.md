@@ -5,7 +5,7 @@
 # Ejecutar en desarrollo
 
 1. Clonar repositorio
-2. Ejecutar
+2. Instalar dependencias
 
 ```ssh
 pnpm install
@@ -21,6 +21,12 @@ npm i -g @nestjs/cli
 
 ```ssh
 docker-compose up -d
+```
+
+5. Levantar el proyecto en desarrollo y en modo watch
+
+```ssh
+pnpm start:dev
 ```
 
 ## Stack usado
