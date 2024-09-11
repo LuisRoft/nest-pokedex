@@ -23,13 +23,17 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
-5. Levantar el proyecto en desarrollo y en modo watch
+5. Clonar el archivo `.env.template` y renombrar la copia a `.env`
+
+6. Llenar las variables de entorno definidas en el `.env`
+
+7. Levantar el proyecto en desarrollo y en modo watch
 
 ```ssh
 pnpm start:dev
 ```
 
-6. Reconstruir la base de datos con la semilla - Solicitud EP
+8. Reconstruir la base de datos con la semilla - Solicitud EP
 
 ```ssh
 https://localhost:3000/api/v2/seed
