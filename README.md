@@ -29,6 +29,12 @@ docker-compose up -d
 pnpm start:dev
 ```
 
+6. Reconstruir la base de datos con la semilla - Solicitud EP
+
+```ssh
+https://localhost:3000/api/v2/seed
+```
+
 ## Stack usado
 
 - MongoDB
