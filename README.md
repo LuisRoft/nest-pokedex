@@ -43,3 +43,19 @@ https://localhost:3000/api/v2/seed
 
 - MongoDB
 - Nest
+
+# Production build
+
+1. Crear el archivo `.env.prod`
+2. Ingresar las variables de entorno de prod
+3. Buildear el proyecto (solo la primera vez)
+
+```ssh
+docker-compose -f docker-compose.prod.yaml --env-file .env.prod up --build
+```
+
+Para levantar el proyecto en otras ocasiones ya no buildearlo
+
+```ssh
+docker-compose -f docker-compose.prod.yaml --env-file .env.prod up -d
+```
